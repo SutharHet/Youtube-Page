@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: #f5f7f6;
+}
+/* Navigatin barcss */
+.navbar{
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    display: grid;
+    grid-template-columns: 20% 50% 30%;
+    background-color: white;
+}
+.nav-left{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0;
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+.icons{
+    height: 20px;
+    margin-left: 20px;
+}
+.nav-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#search{
+    width: 600px;
+    height: 30px;
+}
+#btn{
+    width: 50px;
+    height: 30px;
+    background-image: url("Icons/loupe.png");
+}
+.nav-right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 20px;
+}
+
+/*Main css*/
