@@ -135,6 +135,9 @@ hr{
     border: none;
     font-weight: bold;
 }
+.subscribe-btn{
+    cursor: pointer;
+}
 .desc{
     margin: 10px auto 10px 90px;
     width: 60%;
