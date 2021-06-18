@@ -39,9 +39,12 @@ ul{
     height: 30px;
 }
 #btn{
-    width: 50px;
+    width: 70px;
     height: 30px;
-    background-image: url("Icons/loupe.png");
+}
+#btn .icons{
+    height: 15px;
+    margin: 0;
 }
 .nav-right{
     display: flex;
@@ -184,6 +187,87 @@ hr{
     font-size: 15px;
     font-weight: bold;
 }
+.comments{
+    margin: 20px auto auto 45px;
+    width: 91%;
+}
+.comment-num{
+    display: flex;
+    align-self: center;
+}
+.comment-num a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+.user-comment{
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    margin-top: 15px;
+}
+.user-comment .icons{
+    height: 40px;
+}
+.user-comment input{
+    width: 91%;
+    height: 30px;
+    background-color: f5f7f6;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-left: 5px;
+}
+
+.user-commented{
+    display: grid;
+    grid-template-columns: 10% 90%;
+    margin: 20px auto auto auto;
+}
+.user-pic .icons{
+    height: 40px;
+}
+.comment{
+    font-size: 15px;
+}
+.comment a{
+    text-decoration: none;
+}
+.uploaed-time{
+    font-size: 13px;
+    color: gray;
+}
+.uploaed-time:hover{
+    color: black;
+}
+.user-name a{
+    color: black;
+    font-weight: bold;
+}
+.user-name{
+    margin-bottom: 3px;
+}
+.read-more{
+    color: gray;
+    font-weight: bold;
+}
+.read-more:hover{
+    text-decoration: underline;
+}
+.like-dislike a{
+    color: gray;
+    font-size: 15px;
+    margin-left: -20px;
+}
+.comment .icons{
+    height: 14px;
+}
+.replies{
+    color: #1338be;
+    font-weight: bold;
+    margin-left: -20px;
+}
+
 /*Next css*/
 .next{
     width: 100%;
